@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B91FD34324136E0600D85ADB /* Data_Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91FD34224136E0600D85ADB /* Data_Fetch.swift */; };
+		B91FD3472413AD3A00D85ADB /* Master_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91FD3462413AD3A00D85ADB /* Master_Response.swift */; };
+		B97A1DA62410BD0D007D1B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A1DA52410BD0D007D1B79 /* AppDelegate.swift */; };
+		B97A1DA82410BD0D007D1B79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A1DA72410BD0D007D1B79 /* ViewController.swift */; };
+		B97A1DAB2410BD0E007D1B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97A1DA92410BD0E007D1B79 /* Main.storyboard */; };
+		B97A1DAD2410BD3E007D1B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97A1DAC2410BD3E007D1B79 /* Assets.xcassets */; };
+		B97A1DB02410BD3E007D1B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97A1DAE2410BD3E007D1B79 /* LaunchScreen.storyboard */; };
+		B9875AF224110C4E00B57E36 /* firstcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9875AF124110C4E00B57E36 /* firstcell.swift */; };
+		B9875AF424110C8500B57E36 /* second.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9875AF324110C8500B57E36 /* second.swift */; };
+		E2BF77EC76C3F072991518B5 /* Pods_Fency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120265EB822C320A2E90C404 /* Pods_Fency.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120265EB822C320A2E90C404 /* Pods_Fency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12635D8F93321A0674AAB30C /* Pods-Fency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fency.release.xcconfig"; path = "Target Support Files/Pods-Fency/Pods-Fency.release.xcconfig"; sourceTree = "<group>"; };
+		577DAE093B34F9F8C45475E6 /* Pods-Fency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fency.debug.xcconfig"; path = "Target Support Files/Pods-Fency/Pods-Fency.debug.xcconfig"; sourceTree = "<group>"; };
+		B91FD34224136E0600D85ADB /* Data_Fetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_Fetch.swift; sourceTree = "<group>"; };
+		B91FD3462413AD3A00D85ADB /* Master_Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Master_Response.swift; sourceTree = "<group>"; };
+		B97A1DA22410BD0D007D1B79 /* Fency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97A1DA52410BD0D007D1B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B97A1DA72410BD0D007D1B79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B97A1DAA2410BD0E007D1B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B97A1DAC2410BD3E007D1B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B97A1DAF2410BD3E007D1B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B97A1DB12410BD3E007D1B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9875AF124110C4E00B57E36 /* firstcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstcell.swift; sourceTree = "<group>"; };
+		B9875AF324110C8500B57E36 /* second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B97A1D9F2410BD0D007D1B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BF77EC76C3F072991518B5 /* Pods_Fency.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0392CE2441192F0D5D6A7C4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				120265EB822C320A2E90C404 /* Pods_Fency.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B97A1D992410BD0C007D1B79 = {
+			isa = PBXGroup;
+			children = (
+				B97A1DA42410BD0D007D1B79 /* Fency */,
+				B97A1DA32410BD0D007D1B79 /* Products */,
+				E739CABD907062F5EBA22F1C /* Pods */,
+				0392CE2441192F0D5D6A7C4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B97A1DA32410BD0D007D1B79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B97A1DA22410BD0D007D1B79 /* Fency.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B97A1DA42410BD0D007D1B79 /* Fency */ = {
+			isa = PBXGroup;
+			children = (
+				B97A1DA52410BD0D007D1B79 /* AppDelegate.swift */,
+				B97A1DA72410BD0D007D1B79 /* ViewController.swift */,
+				B91FD3462413AD3A00D85ADB /* Master_Response.swift */,
+				B91FD34224136E0600D85ADB /* Data_Fetch.swift */,
+				B9875AF124110C4E00B57E36 /* firstcell.swift */,
+				B9875AF324110C8500B57E36 /* second.swift */,
+				B97A1DA92410BD0E007D1B79 /* Main.storyboard */,
+				B97A1DAC2410BD3E007D1B79 /* Assets.xcassets */,
+				B97A1DAE2410BD3E007D1B79 /* LaunchScreen.storyboard */,
+				B97A1DB12410BD3E007D1B79 /* Info.plist */,
+			);
+			path = Fency;
+			sourceTree = "<group>";
+		};
+		E739CABD907062F5EBA22F1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				577DAE093B34F9F8C45475E6 /* Pods-Fency.debug.xcconfig */,
+				12635D8F93321A0674AAB30C /* Pods-Fency.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B97A1DA12410BD0D007D1B79 /* Fency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97A1DB42410BD3E007D1B79 /* Build configuration list for PBXNativeTarget "Fency" */;
+			buildPhases = (
+				0D830E2C4CB0845C4DE7EBDB /* [CP] Check Pods Manifest.lock */,
+				B97A1D9E2410BD0D007D1B79 /* Sources */,
+				B97A1D9F2410BD0D007D1B79 /* Frameworks */,
+				B97A1DA02410BD0D007D1B79 /* Resources */,
+				DCA27AE2AB796FFE5A1991AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fency;
+			productName = Fency;
+			productReference = B97A1DA22410BD0D007D1B79 /* Fency.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B97A1D9A2410BD0C007D1B79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mihir Vyas";
+				TargetAttributes = {
+					B97A1DA12410BD0D007D1B79 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B97A1D9D2410BD0C007D1B79 /* Build configuration list for PBXProject "Fency" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B97A1D992410BD0C007D1B79;
+			productRefGroup = B97A1DA32410BD0D007D1B79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B97A1DA12410BD0D007D1B79 /* Fency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B97A1DA02410BD0D007D1B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97A1DB02410BD3E007D1B79 /* LaunchScreen.storyboard in Resources */,
+				B97A1DAD2410BD3E007D1B79 /* Assets.xcassets in Resources */,
+				B97A1DAB2410BD0E007D1B79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D830E2C4CB0845C4DE7EBDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fency-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA27AE2AB796FFE5A1991AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fency/Pods-Fency-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fency/Pods-Fency-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fency/Pods-Fency-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B97A1D9E2410BD0D007D1B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97A1DA82410BD0D007D1B79 /* ViewController.swift in Sources */,
+				B91FD3472413AD3A00D85ADB /* Master_Response.swift in Sources */,
+				B97A1DA62410BD0D007D1B79 /* AppDelegate.swift in Sources */,
+				B91FD34324136E0600D85ADB /* Data_Fetch.swift in Sources */,
+				B9875AF224110C4E00B57E36 /* firstcell.swift in Sources */,
+				B9875AF424110C8500B57E36 /* second.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B97A1DA92410BD0E007D1B79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B97A1DAA2410BD0E007D1B79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B97A1DAE2410BD3E007D1B79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B97A1DAF2410BD3E007D1B79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B97A1DB22410BD3E007D1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B97A1DB32410BD3E007D1B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B97A1DB52410BD3E007D1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577DAE093B34F9F8C45475E6 /* Pods-Fency.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fency/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ProgrammingProton.Fency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B97A1DB62410BD3E007D1B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12635D8F93321A0674AAB30C /* Pods-Fency.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fency/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ProgrammingProton.Fency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B97A1D9D2410BD0C007D1B79 /* Build configuration list for PBXProject "Fency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97A1DB22410BD3E007D1B79 /* Debug */,
+				B97A1DB32410BD3E007D1B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97A1DB42410BD3E007D1B79 /* Build configuration list for PBXNativeTarget "Fency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97A1DB52410BD3E007D1B79 /* Debug */,
+				B97A1DB62410BD3E007D1B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B97A1D9A2410BD0C007D1B79 /* Project object */;
+}
